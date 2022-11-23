@@ -33,7 +33,7 @@ artistTopFiveAlbums.onreadystatechange = function () {
 
 // requestArtistData - It executes the AJAX GET requests from the API
 function requestArtistData() {
-	let apiRoot =  "http://ws.audioscrobbler.com/2.0/?",
+	let apiRoot =  "https://ws.audioscrobbler.com/2.0/?",
 		apiKey = "fb6515c4da805c48249b4baa7bcec4fc"
   
 	if (!searchArtist.value) {
