@@ -1,0 +1,114 @@
+
+body {
+  background-color: #e29fd4;
+  background-image: url('musicbg.jpg');
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+h2 {
+    color: #000;  
+    font: 700 24px lato;
+}
+  
+#artistNameHeader {
+    margin:  40px 0 0 0 ;
+    color: rgb(174, 6, 166);
+    font-size: 30px;
+    font-weight: bold;
+}
+  
+#topFiveAlbumList li {
+    color: #333;
+    font: 18px/20px lato;
+    list-style: none; 
+}
+  
+#topFiveAlbumList li {
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+  
+
+#infoBlockTwo {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+  
+#topFiveAlbumList {
+    margin: 0px auto 0px auto;
+    padding: 0px;
+    width: 500px;
+} 
+  
+#search {
+    width: 500px;
+    margin: 25px 10px 12px auto;   
+}
+  
+#banner {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+  
+#topFiveAlbumList img {
+      border: 1px solid #000;
+      margin-right: 10px;
+      vertical-align: middle;
+}
+  
+input, button {
+    border: 0;
+    background-color: #efefef;
+    font: 700 18px lato;
+    padding: 8px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+  
+input {
+    border-bottom: 1px solid #333;
+    margin-right: 5px;
+    width: 180px;
+    padding-left: 12px;
+}
+  
+input:focus, button:focus {
+    outline: none;
+}
+  
+button {
+    width: 100px;
+    background-color: rgb(233, 13, 6);
+    color:#efefef
+}
+  
+  
+@media screen and (min-width: 485px) {
+    
+      .wrapper {
+      flex-direction: row;
+      justify-content: center;
+      max-width: 960px;
+      margin: 0 auto;
+      }
+    
+      #infoBlockTwo {
+      margin: 20px 50px;
+      }
+    
+      #banner {
+      margin-top: 50px;
+      }
+    
+  }
+  
+  
+  

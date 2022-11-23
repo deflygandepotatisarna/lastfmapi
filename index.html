@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Patricio LastFm</title>
+	<link rel="icon" type="image/x-icon" href="favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<section id="infoBlockOne">
+			<header>
+				<img id="banner" src="banner1.png">
+			</header>
+			<section id="infoBlockTwo">
+			</section>
+		</section>
+
+		<section id="artistData" >
+			
+			<section id="search">
+				<input id="searchArtist" placeholder="Search your artist">
+				<button onclick="requestArtistData()" id="searchButton" >Search</button>
+			</section>
+			<section>
+				<span id="artistNameHeader"> </span>
+			</section>
+			
+			<ul id="topFiveAlbumList">
+				<h2 id="topAlbumsHeader"></h2>
+				<li id="disc0"></li>
+				<li id="disc1"></li>
+				<li id="disc2"></li>
+				<li id="disc3"></li>
+				<li id="disc4"></li>
+			</ul>
+		</section>
+  </div>
+		
+  <script src="script.js"></script>
+
+	
+</body>
+
+</html>
